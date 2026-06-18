@@ -18,7 +18,7 @@ function env.import(id)
 end
 
 function env.getgitpath(where)
-    local mainBuild = "https://raw.githubusercontent.com/IcantAffordSynapse/BrainrotPolice/refs/heads/main/"
+    local mainBuild = "https://raw.githubusercontent.com/OfficialMark725/a/refs/heads/main"
     if where == "src" then
         return mainBuild .. "src/"
     elseif where == "games" then
